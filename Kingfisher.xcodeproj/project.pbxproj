@@ -3,14 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7FAA1728B6D47F32A61863EF /* Pods_KingfisherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2C5DCF60FFDD544AF34387 /* Pods_KingfisherTests.framework */; };
 		9F1491B22CB8591973480DCD /* Pods_Kingfisher_KingfisherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184F077B1BF959BC2CFA421A /* Pods_Kingfisher_KingfisherUITests.framework */; };
 		C37157EC26EF531B00F9AC2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157EB26EF531B00F9AC2B /* AppDelegate.swift */; };
-		C37157EE26EF531B00F9AC2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157ED26EF531B00F9AC2B /* SceneDelegate.swift */; };
 		C37157F026EF531B00F9AC2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37157EF26EF531B00F9AC2B /* ViewController.swift */; };
 		C37157F326EF531B00F9AC2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37157F126EF531B00F9AC2B /* Main.storyboard */; };
 		C37157F526EF531F00F9AC2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37157F426EF531F00F9AC2B /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 		7B6B764F7043DC68BB1170D9 /* Pods-KingfisherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingfisherTests.debug.xcconfig"; path = "Target Support Files/Pods-KingfisherTests/Pods-KingfisherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C37157E826EF531B00F9AC2B /* Kingfisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kingfisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37157EB26EF531B00F9AC2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C37157ED26EF531B00F9AC2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C37157EF26EF531B00F9AC2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C37157F226EF531B00F9AC2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37157F426EF531F00F9AC2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				7B6B764F7043DC68BB1170D9 /* Pods-KingfisherTests.debug.xcconfig */,
 				728E58BE038AE674C4EF48C9 /* Pods-KingfisherTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				C37157EB26EF531B00F9AC2B /* AppDelegate.swift */,
-				C37157ED26EF531B00F9AC2B /* SceneDelegate.swift */,
 				C37157EF26EF531B00F9AC2B /* ViewController.swift */,
 				C37157F126EF531B00F9AC2B /* Main.storyboard */,
 				C37157F426EF531F00F9AC2B /* Assets.xcassets */,
@@ -409,7 +405,6 @@
 			files = (
 				C37157F026EF531B00F9AC2B /* ViewController.swift in Sources */,
 				C37157EC26EF531B00F9AC2B /* AppDelegate.swift in Sources */,
-				C37157EE26EF531B00F9AC2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
